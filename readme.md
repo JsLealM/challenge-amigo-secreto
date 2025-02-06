@@ -15,6 +15,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 1. Clona el repositorio:
    ```sh
    git clone https://github.com/JsLealM/challenge-amigo-secreto.git
+   ```
 2. Accede a la carpeta del proyecto
   ```sh
   cd amigo-secreto
