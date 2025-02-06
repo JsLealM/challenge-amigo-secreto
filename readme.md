@@ -28,7 +28,8 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 3. Presione el botón de sorteo para elegir un amigo secreto aleatoriamente.
 4. Si todos los amigos han sido sorteados, se mostrará un mensaje indicándolo.
 
-##Ejemplo De Uso
+## Ejemplo De Uso
+https://github.com/user-attachments/assets/524e972f-9b37-4031-9c19-d62570999c42
 
 
 ## Estructura del Proyecto
