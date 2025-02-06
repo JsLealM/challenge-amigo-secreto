@@ -10,6 +10,16 @@ Este es un sencillo programa en JavaScript para agregar nombres de amigos y sort
 - Sortea un amigo secreto de forma aleatoria.
 - Garantiza que cada persona sea sorteada solo una vez.
 
+## Instalación
+Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/JsLealM/challenge-amigo-secreto.git
+2. Accede a la carpeta del proyecto
+  ```sh
+  cd amigo-secreto
+3. Abre el archivo index.html en tu navegador.
+
 ## Cómo Usarlo
 1. Ingrese un nombre en el campo de entrada y presione el botón para agregarlo.
 2. La lista de amigos se actualizará automáticamente.
