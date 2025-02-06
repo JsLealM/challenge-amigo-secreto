@@ -18,6 +18,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 2. Accede a la carpeta del proyecto
   ```sh
   cd amigo-secreto
+  ```
 3. Abre el archivo index.html en tu navegador.
 
 ## Cómo Usarlo
