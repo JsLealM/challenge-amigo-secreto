@@ -1,4 +1,5 @@
 let amigos = [];
+let amigosSorteado = [];
 
 function agregarAmigo (){
  let amigo = document.getElementById('amigo').value;
@@ -28,14 +29,18 @@ function mostrarListaAmigos (){
 }
 
 function sortearAmigo(){
+  let indice = Math.floor(Math.random()*(amigos.length));
+  let resultado = document.getElementById('resultado');
   if (amigos.length == 0){
     alert('No se puede sortear aun, tienes que añadir algun amigo.');
     return;
+  }else if (amigosSorteado.length == amigos.length){
+    resultado.innerHTML = 'Todos las personas han sido sorteadas.';
+  }else if (amigosSorteado.includes(amigos[indice])) {
+    return sortearAmigo();
   }else{
-    let indice = Math.floor(Math.random()*(amigos.length));
-    let resultado = document.getElementById('resultado');
+    amigosSorteado.push(amigos[indice]);
     resultado.innerHTML = 'El amigo secreto sorteado es: ' + amigos[indice];
     return;
   }
 }
-console.log(amigos);
