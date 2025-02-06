@@ -5,10 +5,14 @@ function agregarAmigo (){
  if (amigo === ''){
   alert('Por favor, inserte un nombre');
   mostrarListaAmigos ();
+ }else if (amigos.includes(amigo)){
+  alert('Este nombre ya esta.');
+  return;
  }else{
   amigos.push(amigo);
   document.getElementById('amigo').value = ''
   mostrarListaAmigos ();
+  return;
  }
 }
 
@@ -25,7 +29,8 @@ function mostrarListaAmigos (){
 
 function sortearAmigo(){
   if (amigos.length == 0){
-    alert('Anade algun amigo');
+    alert('No se puede sortear aun, tienes que añadir algun amigo.');
+    return;
   }else{
     let indice = Math.floor(Math.random()*(amigos.length));
     let resultado = document.getElementById('resultado');
