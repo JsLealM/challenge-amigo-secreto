@@ -17,8 +17,11 @@ function agregarAmigo (){
 function mostrarListaAmigos (){
   let lista = document.getElementById('listaAmigos');
   lista.innerHTML = '';
+
   for (let i = 0; i < amigos.length; i++) {
-    lista.innerHTML = amigos[i];
+    let item = document.createElement("LI");
+    item.innerHTML = amigos[i];
+    lista.appendChild(item);
   }
 }
 console.log(amigos);
